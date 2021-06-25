@@ -147,7 +147,7 @@ def home():
                 print("add notes")
                 text = request.form['text']
                 notelist.append(text)
-                return redirect(url_for("home", notelist=notelist))
+                return redirect(url_for("show_notes_logined", notelist=notelist))
             else :
                 pass
         elif request.form['submit_button'] == '2':
@@ -156,8 +156,6 @@ def home():
                 return redirect(url_for("register"))
             else:
                 pass
-
-
     return render_template('index.html', notelist=notelist)
 
 @app.route('/show-notes', methods=["GET", "POST"])
