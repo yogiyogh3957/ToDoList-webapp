@@ -7,6 +7,7 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 import os
 from forms import CreateRegisterForm, LoginForm
 from functools import wraps
+import time
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "3957"
@@ -51,8 +52,6 @@ class BlogPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     notes = db.Column(db.String(250), unique=False, nullable=False)
     author_id = db.Column(db.Integer, db.ForeignKey("users.id"))
-
-    # notes_id = db.Column(db.Integer, primary_key=True, nullable=False)
 
     author = relationship("User", back_populates="posts")
 
@@ -116,6 +115,7 @@ def dashboard(note_id):
                 if request.form['submit_button'] == '2':
                     print("db sv notes")
                     text = request.form['text']
+                    time.sleep(1)
                     new_notes = BlogPost(
                         notes=text,
                         author=current_user
