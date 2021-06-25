@@ -8,7 +8,7 @@
 
 {%for notes in notelist%}
         <div id="bar4" class="container-fluid">
-            <p>{{ notes }}</p>
+            <p>{{ notes|safe }}</p>
         </div>
 {%endfor%}
 
