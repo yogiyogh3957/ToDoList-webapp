@@ -146,7 +146,9 @@ def home():
             print("add notes")
             text = request.form['text']
             notelist.append(text)
-            return redirect(url_for("home", notelist=notelist))
+            if len(notelist) > 0 :
+                return redirect(url_for("home", notelist=notelist, mustregister=True))
+            return redirect(url_for("home", notelist=notelist, mustregister=False))
         elif request.form['submit_button'] == '2':
             print("register/saves notes")
             if not current_user.is_authenticated:
