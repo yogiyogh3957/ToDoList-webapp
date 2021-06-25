@@ -69,7 +69,7 @@ def logout():
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
-    global notelist
+
     print(notelist)
     form = LoginForm()
     if form.validate_on_submit():
@@ -140,14 +140,15 @@ def delete_post(note_id):
 
 @app.route('/', methods=["GET", "POST"])
 def home():
-    global notelist
+
     if request.method == 'POST':
         if request.form['submit_button'] == '1':
             if not current_user.is_authenticated:
                 print("add notes")
                 text = request.form['text']
                 notelist.append(text)
-                return render_template('index.html', notelist=notelist)
+                print(f"{notelist}")
+                return redirect(url_for("home", notelist=notelist))
             else :
                 pass
         elif request.form['submit_button'] == '2':
@@ -161,7 +162,7 @@ def home():
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
-    global notelist
+
     print(notelist)
     form = CreateRegisterForm()
     if form.validate_on_submit():
