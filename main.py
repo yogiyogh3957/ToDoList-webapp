@@ -159,7 +159,7 @@ def home():
                     )
                     db.session.add(new_notes)
                 db.session.commit()
-                notelist.clear()
+                # notelist.clear()
                 return redirect(url_for("show_notes_logined", notelist=notelist))
 
 
