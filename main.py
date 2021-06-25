@@ -56,7 +56,7 @@ class BlogPost(db.Model):
 
     author = relationship("User", back_populates="posts")
 
-#db.create_all()
+db.create_all()
 
 notelist = []
 
