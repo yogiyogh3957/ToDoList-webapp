@@ -1,0 +1,23 @@
+
+{% include "header2.html" %}
+
+
+    {%for notes in notelist%}
+        <div id="bar1" class="container-fluid">
+            <p>{{ notes }}</p>
+        </div>
+    {%endfor%}
+
+    <div id="bar3" class="container-fluid">
+        <form method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                    <button type="submit" name="submit_button" class="btn btn-primary btn-lg" value="1">Add Notes</button>
+                    <button type="submit" name="submit_button" class="btn btn-primary btn-lg" value="2">Save Notes</button>
+                </div>
+        </form>
+    </div>
+
+{% include "footer.html" %}

@@ -1,0 +1,52 @@
+/* This CSS file will need to be added to the styling of
+your web pages for the styles to be rendered. */
+
+body {
+background-color: #DDDDDD;
+color: red;
+}
+
+a {
+    color: black;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 200px;
+  height: 100vh;
+  color: white;
+  background-color: #cc9b6d;
+
+  background-size: cover;
+}
+
+.row {
+    align-items:
+}
+
+.navbar{
+    background-color: #F5A962;
+    margin-bottom: 1px !important;
+}
+
+.textbox{
+    padding-top: 12px !important;
+    text-align : center !important;
+}
+
+.col-4 {
+    padding-left : 50px !important;
+}
+
+#bar1{
+    background-color: #125D98;
+    color: #E99497;
+    padding: 6px 12px;
+}
+
+#bar2{
+    background-color: #3C8DAD;
+    color: #E99497;
+}

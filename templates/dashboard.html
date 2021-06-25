@@ -1,0 +1,45 @@
+
+{% include "header2.html" %}
+
+    <h2 class="itsnotes">it is your notes</h2>
+<hr style="height:4px;border-width:1px;color:blue;background-color:gray">
+
+<div id="bar" class="container-fluid">
+    <form method="post">
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">add note here below</label>
+    <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <button type="submit" name="submit_button" class="btn btn-warning" value="2">Save Notes</button>
+    </div>
+    </form>
+</div>
+
+    <div id="bar1" class="container-fluid">
+        {% for note in user_notes %}
+
+        <div class="row">
+
+            <div class="col-sm">
+              <p style="color:black;">{{ note.notes|safe }}</p>
+            </div>
+
+
+            <div class="col-sm">
+
+                <a class="btn btn-outline-warning" href="{{url_for('delete_post', note_id=note.id) }}">Delete Notes</a>
+
+            </div>
+
+
+        </div>
+        <hr style="height:2px;border-width:0;color:blue;background-color:gray">
+
+        {% endfor %}
+        </div>
+
+
+
+
+
+
+{% include "footer.html" %}
