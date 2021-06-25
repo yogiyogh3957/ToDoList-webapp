@@ -145,10 +145,11 @@ def home():
             global notelist
             print("add notes")
             text = request.form['text']
-            time.sleep(2)
             notelist.append(text)
             print(f"{notelist}")
-            return redirect(url_for("home", notelist=notelist))
+            # time.sleep(2)
+            # return redirect(url_for("home", notelist=notelist))
+            return redirect(url_for("show_notes"))
         if request.form['submit_button'] == '2':
             print("register/saves notes")
             if not current_user.is_authenticated:
@@ -159,6 +160,12 @@ def home():
             notelist.clear()
             return redirect(url_for("home", notelist=notelist))
     return render_template('index.html', notelist=notelist)
+
+@app.route('/show_notes', methods=["GET", "POST"])
+def show_notes():
+    global notelist
+    print("show_notes")
+    return redirect(url_for("home", notelist=notelist))
 
 
 @app.route('/register', methods=["GET", "POST"])
