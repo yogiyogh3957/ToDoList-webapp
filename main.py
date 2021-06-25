@@ -158,6 +158,9 @@ def home():
                 return redirect(url_for("register"))
             else:
                 pass
+        elif request.form['submit_button'] == '3':
+            notelist.clear()
+            return redirect(url_for("home", notelist=notelist))
     return render_template('index.html', notelist=notelist)
 
 
