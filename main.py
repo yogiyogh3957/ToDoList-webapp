@@ -147,7 +147,7 @@ def home():
                 print("add notes")
                 text = request.form['text']
                 notelist.append(text)
-                return redirect(url_for("show_notes_logined", notelist=notelist))
+                return redirect(url_for("home", notelist=notelist))
             else :
                 pass
         elif request.form['submit_button'] == '2':
@@ -157,21 +157,6 @@ def home():
             else:
                 pass
     return render_template('index.html', notelist=notelist)
-
-@app.route('/show-notes', methods=["GET", "POST"])
-def show_notes_logined():
-    global notelist
-    if request.method == 'POST':
-        if request.form['submit_button'] == '1':
-            print("add notes")
-            text = request.form['text']
-            notelist.append(text)
-            return redirect(url_for("show_notes_logined", notelist=notelist))
-        elif request.form['submit_button'] == '2':
-            print("register cz not autenticated")
-            return redirect(url_for("register"))
-
-    return render_template('show_notes.html', notelist=notelist)
 
 
 @app.route('/register', methods=["GET", "POST"])
