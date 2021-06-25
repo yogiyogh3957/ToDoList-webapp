@@ -147,7 +147,7 @@ def home():
                 print("add notes")
                 text = request.form['text']
                 notelist.append(text)
-                return redirect(url_for("home", notelist=notelist))
+                return render_template('index.html', notelist=notelist)
             else :
                 pass
         elif request.form['submit_button'] == '2':
