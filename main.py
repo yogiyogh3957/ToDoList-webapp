@@ -143,26 +143,19 @@ def home():
     global notelist
     if request.method == 'POST':
         if request.form['submit_button'] == '1':
-            print("add notes")
-            text = request.form['text']
-            notelist.append(text)
-            if len(notelist) > 0 :
-                return redirect(url_for("home", notelist=notelist, mustregister=True))
-            return redirect(url_for("home", notelist=notelist, mustregister=False))
+            if not current_user.is_authenticated:
+                print("add notes")
+                text = request.form['text']
+                notelist.append(text)
+                return redirect(url_for("home", notelist=notelist))
+            else :
+                pass
         elif request.form['submit_button'] == '2':
             print("register/saves notes")
             if not current_user.is_authenticated:
                 return redirect(url_for("register"))
             else:
-                for data in notelist:
-                    new_notes = BlogPost(
-                        notes=data,
-                        author=current_user
-                    )
-                    db.session.add(new_notes)
-                db.session.commit()
-                # notelist.clear()
-                return redirect(url_for("show_notes_logined", notelist=notelist))
+                pass
 
 
     return render_template('index.html', notelist=notelist)
@@ -177,16 +170,8 @@ def show_notes_logined():
             notelist.append(text)
             return redirect(url_for("show_notes_logined", notelist=notelist))
         elif request.form['submit_button'] == '2':
-            print("saving into database")
-            for data in notelist :
-                new_notes = BlogPost(
-                    notes=data,
-                    author=current_user
-                )
-                db.session.add(new_notes)
-            db.session.commit()
-            notelist.clear()
-            return redirect(url_for("dashboard", note_id=current_user.id))
+            print("register cz not autenticated")
+            return redirect(url_for("register"))
 
     return render_template('show_notes.html', notelist=notelist)
 
