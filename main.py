@@ -115,7 +115,6 @@ def dashboard(note_id):
                 if request.form['submit_button'] == '2':
                     print("db sv notes")
                     text = request.form['text']
-                    time.sleep(1)
                     new_notes = BlogPost(
                         notes=text,
                         author=current_user
@@ -146,6 +145,7 @@ def home():
             global notelist
             print("add notes")
             text = request.form['text']
+            time.sleep(2)
             notelist.append(text)
             print(f"{notelist}")
             return redirect(url_for("home", notelist=notelist))
