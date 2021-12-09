@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="745b06a7-9e65-497e-ab43-1ea34340f62a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0232e96e-825b-42d9-b3dc-465bbe73077a" />
+        <option name="url" value="https://github.com/yogiyogh3957/ToDoList-webapp.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uCkTVWbkU4l7rG3hy1G7Wj2HZf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ToDoList-webapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="745b06a7-9e65-497e-ab43-1ea34340f62a" name="Default Changelist" comment="" />
+      <created>1624176967387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624176967387</updated>
+      <workItem from="1638355225471" duration="2238000" />
+      <workItem from="1638411934924" duration="2856000" />
+      <workItem from="1638844258528" duration="6000" />
+      <workItem from="1638853081868" duration="2049000" />
+      <workItem from="1639009872367" duration="402000" />
+    </task>
+    <task id="LOCAL-00001" summary="add heroku postgresql">
+      <created>1624605452166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624605452166</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dbcreateall">
+      <created>1624605557217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624605557217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="command dbcreateall">
+      <created>1624605916932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624605916932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update home">
+      <created>1624606324621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624606324621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update index |safe">
+      <created>1624606790205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624606790205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="command notelist.clear()">
+      <created>1624607134956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624607134956</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some update">
+      <created>1624607933582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624607933582</updated>
+    </task>
+    <task id="LOCAL-00008" summary="some update for bug">
+      <created>1624608833209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624608833209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add &quot;invite for sign up&quot; and  from home route redirect home change to shownoteslogined line150">
+      <created>1624609149521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624609149521</updated>
+    </task>
+    <task id="LOCAL-00010" summary="del shownoteslogined">
+      <created>1624609705791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624609705791</updated>
+    </task>
+    <task id="LOCAL-00011" summary="line 150 return redirect become render template">
+      <created>1624610567121</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624610567121</updated>
+    </task>
+    <task id="LOCAL-00012" summary="try fix list notelist">
+      <created>1624612474672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624612474672</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add all global notelist">
+      <created>1624613488979</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624613488979</updated>
+    </task>
+    <task id="LOCAL-00014" summary="try to add time slip in home line 118">
+      <created>1624617677929</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624617677929</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding del button in home when not logging in">
+      <created>1624618063299</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624618063299</updated>
+    </task>
+    <task id="LOCAL-00016" summary="try fixing">
+      <created>1624618462576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624618462577</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixing time sleep in right place">
+      <created>1624618720839</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624618720839</updated>
+    </task>
+    <task id="LOCAL-00018" summary="rerouting notelist">
+      <created>1624620000980</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624620000980</updated>
+    </task>
+    <task id="LOCAL-00019" summary="rerouting notelist into newpage shownotes.html">
+      <created>1624621016977</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624621016977</updated>
+    </task>
+    <task id="LOCAL-00020" summary="del shownotes.html">
+      <created>1624621341623</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624621341623</updated>
+    </task>
+    <task id="LOCAL-00021" summary="edit html UI">
+      <created>1624621664329</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624621664329</updated>
+    </task>
+    <task id="LOCAL-00022" summary="edit html UI">
+      <created>1638423592452</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1638423592453</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add heroku postgresql" />
+    <MESSAGE value="dbcreateall" />
+    <MESSAGE value="command dbcreateall" />
+    <MESSAGE value="update home" />
+    <MESSAGE value="update index |safe" />
+    <MESSAGE value="command notelist.clear()" />
+    <MESSAGE value="some update" />
+    <MESSAGE value="some update for bug" />
+    <MESSAGE value="add &quot;invite for sign up&quot; and  from home route redirect home change to shownoteslogined line150" />
+    <MESSAGE value="del shownoteslogined" />
+    <MESSAGE value="line 150 return redirect become render template" />
+    <MESSAGE value="try fix list notelist" />
+    <MESSAGE value="add all global notelist" />
+    <MESSAGE value="try to add time slip in home line 118" />
+    <MESSAGE value="adding del button in home when not logging in" />
+    <MESSAGE value="try fixing" />
+    <MESSAGE value="fixing time sleep in right place" />
+    <MESSAGE value="rerouting notelist" />
+    <MESSAGE value="rerouting notelist into newpage shownotes.html" />
+    <MESSAGE value="del shownotes.html" />
+    <MESSAGE value="edit html UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit html UI" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ToDoList_webapp$main.coverage" NAME="main Coverage Results" MODIFIED="1638853085003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
