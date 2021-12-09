@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745b06a7-9e65-497e-ab43-1ea34340f62a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +35,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0232e96e-825b-42d9-b3dc-465bbe73077a" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="0232e96e-825b-42d9-b3dc-465bbe73077a" />
+        <option name="accountId" value="82cdf38e-2b50-4550-ad76-3d4204cba4f3" />
         <option name="url" value="https://github.com/yogiyogh3957/ToDoList-webapp.git" />
       </UrlAndAccount>
     </option>
@@ -106,7 +109,7 @@
       <workItem from="1638411934924" duration="2856000" />
       <workItem from="1638844258528" duration="6000" />
       <workItem from="1638853081868" duration="2049000" />
-      <workItem from="1639009872367" duration="402000" />
+      <workItem from="1639009872367" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="add heroku postgresql">
       <created>1624605452166</created>
