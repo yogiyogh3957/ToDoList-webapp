@@ -141,6 +141,7 @@ def delete_post(note_id):
 def home():
     global notelist
     if request.method == 'POST':
+
         if request.form['submit_button'] == '1':
             global notelist
             print("add notes")
@@ -149,15 +150,18 @@ def home():
             print(f"{notelist}")
             time.sleep(1)
             return redirect(url_for("home", notelist=notelist))
+
         if request.form['submit_button'] == '2':
             print("register/saves notes")
             if not current_user.is_authenticated:
                 return redirect(url_for("register"))
             else:
                 pass
+
         if request.form['submit_button'] == '3':
             notelist.clear()
             return redirect(url_for("home", notelist=notelist))
+
     return render_template('index.html', notelist=notelist)
 
 
@@ -183,6 +187,8 @@ def register():
             return redirect(url_for('login'))
     return render_template('register.html', form=form)
 
+
+#testgithub
 
 if __name__=="__main__":
     app.run(host=os.getenv('IP', '0.0.0.0'),
