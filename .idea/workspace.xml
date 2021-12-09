@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745b06a7-9e65-497e-ab43-1ea34340f62a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <workItem from="1638411934924" duration="2856000" />
       <workItem from="1638844258528" duration="6000" />
       <workItem from="1638853081868" duration="2049000" />
-      <workItem from="1639009872367" duration="1737000" />
+      <workItem from="1639009872367" duration="2587000" />
     </task>
     <task id="LOCAL-00001" summary="add heroku postgresql">
       <created>1624605452166</created>
